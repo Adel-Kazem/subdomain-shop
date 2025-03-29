@@ -243,42 +243,6 @@ const PRODUCTS = [
  ]
  },
  {
- id: 15,
- name: 'aon aspernatur est u',
- description: 'Nisi neque excepturi',
- price: 36,
- rating: 3,
- stock: 2,
- images: [
- 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/2.jpeg',
- 'Atque voluptatem Au'
- ],
- colors: [
- 'Molestiae sapiente v'
- ],
- features: [
- 'Illo nisi excepturi'
- ]
- },
- {
- id: 15,
- name: 'aon aspernatur est u',
- description: 'Nisi neque excepturi',
- price: 36,
- rating: 3,
- stock: 2,
- images: [
- 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/2.jpeg',
- 'Atque voluptatem Au'
- ],
- colors: [
- 'Molestiae sapiente v'
- ],
- features: [
- 'Illo nisi excepturi'
- ]
- },
- {
  id: 16,
  name: 'Voluptatem doloribus',
  description: 'Corporis enim itaque',
