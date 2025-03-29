@@ -1,5 +1,4 @@
 const PRODUCTS = [
-    // Original Products
     {
         id: 1,
         name: 'Premium Wireless Headphones',
@@ -13,7 +12,11 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'White', 'Blue'],
+        colors: [
+            'Black',
+            'White',
+            'Blue'
+        ],
         features: [
             'Active Noise Cancellation',
             'Bluetooth 5.0',
@@ -34,7 +37,11 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1626371353531-b2cf4f8a4038?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Red', 'Green'],
+        colors: [
+            'Black',
+            'Red',
+            'Green'
+        ],
         features: [
             'Heart rate monitoring',
             'Sleep tracking',
@@ -55,7 +62,11 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Orange', 'Blue', 'Gray'],
+        colors: [
+            'Orange',
+            'Blue',
+            'Gray'
+        ],
         features: [
             'Waterproof (IPX7)',
             '360° sound technology',
@@ -64,8 +75,6 @@ const PRODUCTS = [
             'Portable design'
         ]
     },
-
-    // Additional Products
     {
         id: 4,
         name: 'Ultra HD 4K Webcam',
@@ -76,9 +85,12 @@ const PRODUCTS = [
         images: [
             'https://images.unsplash.com/photo-1611928547982-11a79f7f4a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1608438581951-2741c76284f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80' // Re-using keyboard image conceptually for desk setup
+            'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Silver'],
+        colors: [
+            'Black',
+            'Silver'
+        ],
         features: [
             '4K Ultra HD Resolution',
             'Auto-focus',
@@ -99,7 +111,10 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1594050035600-2f35aebd44b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1629429408209-1f9129f1db17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Graphite', 'White'],
+        colors: [
+            'Graphite',
+            'White'
+        ],
         features: [
             'Vertical Ergonomic Design',
             'Adjustable DPI (800/1200/1600)',
@@ -120,7 +135,10 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1595225476474-8756307b084e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1605297433480-0423e17b6a8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Gunmetal Gray'],
+        colors: [
+            'Black',
+            'Gunmetal Gray'
+        ],
         features: [
             'Tactile Mechanical Switches (Blue)',
             'Customizable RGB Backlighting',
@@ -138,10 +156,14 @@ const PRODUCTS = [
         stock: 22,
         images: [
             'https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80', // More generic watch image
+            'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1617625802912-cde586faf331?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Silver Stainless Steel', 'Black Aluminum', 'Rose Gold'],
+        colors: [
+            'Silver Stainless Steel',
+            'Black Aluminum',
+            'Rose Gold'
+        ],
         features: [
             'AMOLED Touch Display',
             'Built-in GPS',
@@ -149,27 +171,6 @@ const PRODUCTS = [
             'Smartphone Notifications',
             'Music Control',
             'NFC Payments'
-        ]
-    },
-    {
-        id: 8,
-        name: 'High-Capacity Power Bank (20000mAh)',
-        description: 'Never run out of battery on the go. This 20000mAh power bank features fast charging, multiple USB ports, and a compact design.',
-        price: 39.99,
-        rating: 4.3,
-        stock: 55,
-        images: [
-            'https://images.unsplash.com/photo-1588701107430-af7a149d4599?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1610078287620-94c1e8351444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1605440336131-8d64f4c91585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        ],
-        colors: ['Black', 'White'],
-        features: [
-            '20000mAh Capacity',
-            'PD Fast Charging (18W)',
-            'Dual USB-A Output',
-            'USB-C Input/Output',
-            'LED Power Indicator'
         ]
     },
     {
@@ -184,7 +185,11 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1610438235354-daa5ec75a837?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1620331317383-17164a3d78e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Midnight Black', 'Pearl White', 'Navy Blue'],
+        colors: [
+            'Midnight Black',
+            'Pearl White',
+            'Navy Blue'
+        ],
         features: [
             'Active Noise Cancellation (ANC)',
             'Transparency Mode',
@@ -206,7 +211,10 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1585136146633-99a5589970ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1614687164617-c69f1db6997e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black/Red Accent', 'White/Blue Accent'],
+        colors: [
+            'Black/Red Accent',
+            'White/Blue Accent'
+        ],
         features: [
             'Virtual 7.1 Surround Sound',
             'Noise-Cancelling Boom Mic',
@@ -227,7 +235,10 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1583468982073-50746b5d28f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1620375399860-76a7d8927a10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Black', 'Twilight Blue'],
+        colors: [
+            'Black',
+            'Twilight Blue'
+        ],
         features: [
             '6.8" Glare-Free Display (300 ppi)',
             'Adjustable Warm Light',
@@ -248,7 +259,10 @@ const PRODUCTS = [
             'https://images.unsplash.com/photo-1527977966376-1c8408f9f108?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
             'https://images.unsplash.com/photo-1591795960133-9d62c1a916d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Gray', 'White'],
+        colors: [
+            'Gray',
+            'White'
+        ],
         features: [
             '4K Video Camera',
             '3-Axis Gimbal Stabilization',
@@ -266,11 +280,15 @@ const PRODUCTS = [
         rating: 4.6,
         stock: 35,
         images: [
-            'https://images.unsplash.com/photo-1518444065439-e933c06ce9ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80', // Generic smart speaker
-            'https://images.unsplash.com/photo-1605440417635-54c14c8e8a9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80', // Another smart speaker
-            'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80' // Laptop setup implying smart home control
+            'https://images.unsplash.com/photo-1518444065439-e933c06ce9ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1605440417635-54c14c8e8a9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+            'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
         ],
-        colors: ['Charcoal Fabric', 'Chalk Fabric', 'Sky Blue Fabric'],
+        colors: [
+            'Charcoal Fabric',
+            'Chalk Fabric',
+            'Sky Blue Fabric'
+        ],
         features: [
             'Voice Assistant Built-in',
             'Multi-room Audio',
