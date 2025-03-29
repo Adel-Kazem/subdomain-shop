@@ -202,7 +202,8 @@ const PRODUCTS = [
  colors: [
  'Charcoal Fabric',
  'Chalk Fabric',
- 'Sky Blue Fabric'
+ 'Sky Blue Fabric',
+ 'yellllllllllll'
  ],
  features: [
  'Voice Assistant Built-in',
