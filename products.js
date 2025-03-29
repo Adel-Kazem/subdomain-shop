@@ -76,30 +76,6 @@ const PRODUCTS = [
  ]
  },
  {
- id: 4,
- name: 'Ultra HD 4K Webcam',
- description: 'Professional 4K webcam with auto-focus, low-light correction, and dual microphones for crystal-clear video calls and streaming.',
- price: 129.99,
- rating: 4.6,
- stock: 25,
- images: [
- 'https://images.unsplash.com/photo-1611928547982-11a79f7f4a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1608438581951-2741c76284f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
- 'Black',
- 'Silver'
- ],
- features: [
- '4K Ultra HD Resolution',
- 'Auto-focus',
- 'Low-light Correction',
- 'Dual Stereo Microphones',
- 'Privacy Shutter'
- ]
- },
- {
  id: 5,
  name: 'broo title',
  description: 'ooooooooooooh sdfs df',
@@ -166,35 +142,9 @@ const PRODUCTS = [
  ]
  },
  {
- id: 9,
- name: 'True Wireless Noise-Cancelling Earbuds',
- description: 'Immerse yourself in sound with these true wireless earbuds featuring active noise cancellation, secure fit, and a compact charging case.',
- price: 149.99,
- rating: 4.5,
- stock: 30,
- images: [
- 'https://images.unsplash.com/photo-1606801434969-196168b1a7a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1610438235354-daa5ec75a837?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1620331317383-17164a3d78e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
- 'Midnight Black',
- 'Pearl White',
- 'Navy Blue'
- ],
- features: [
- 'Active Noise Cancellation (ANC)',
- 'Transparency Mode',
- 'Bluetooth 5.2',
- 'IPX4 Water Resistant',
- '6-hour Playtime (24h with case)',
- 'Wireless Charging Case'
- ]
- },
- {
  id: 10,
- name: 'Surround Sound Gaming Headset',
- description: 'Gain a competitive edge with immersive 7.1 surround sound. This gaming headset features a noise-cancelling microphone, comfortable earcups, and RGB lighting.',
+ name: 'no no no',
+ description: 'wtttttttttttttttg',
  price: 89.99,
  rating: 4.4,
  stock: 26,
@@ -205,14 +155,12 @@ const PRODUCTS = [
  ],
  colors: [
  'Black/Red Accent',
- 'White/Blue Accent'
+ 'blue'
  ],
  features: [
  'Virtual 7.1 Surround Sound',
  'Noise-Cancelling Boom Mic',
- 'Comfortable Over-Ear Design',
- 'Customizable RGB Lighting',
- 'On-Earcup Controls'
+ 'Comfortable Over-Ear Design'
  ]
  },
  {
