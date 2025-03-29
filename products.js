@@ -207,5 +207,39 @@ const PRODUCTS = [
  'Multi-room Audio',
  'Smart Home Device Control (Zigbee, Wi-Fi, Bluetooth)'
  ]
+ },
+ {
+ id: 14,
+ name: 'Quia sit totam veni',
+ description: 'Alias eligendi iusto',
+ price: 34,
+ rating: 1,
+ stock: 16,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1-hero.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/2.jpeg'
+ ],
+ colors: [
+ ],
+ features: [
+ ]
+ },
+ {
+ id: 14,
+ name: 'Quia sit totam veni',
+ description: 'Alias eligendi iusto',
+ price: 34,
+ rating: 1,
+ stock: 16,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1-hero.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/2.jpeg'
+ ],
+ colors: [
+ ],
+ features: [
+ ]
  }
 ];
