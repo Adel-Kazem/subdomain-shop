@@ -1,30 +1,5 @@
 const PRODUCTS = [
     {
-        id: 2,
-        name: 'Smart Fitness Tracker',
-        description: 'Track your health and fitness goals with our advanced smart fitness tracker. Monitor heart rate, sleep patterns, and activity levels with precision sensors and a vibrant display.',
-        price: 89.99,
-        rating: 4.5,
-        stock: 42,
-        images: [
-            'https://images.unsplash.com/photo-1575311373937-040b8e1fd6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1626371353531-b2cf4f8a4038?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        ],
-        colors: [
-            'Black',
-            'Red',
-            'Green'
-        ],
-        features: [
-            'Heart rate monitoring',
-            'Sleep tracking',
-            'Water resistant (50m)',
-            '7-day battery life',
-            'Smartphone notifications'
-        ]
-    },
-    {
         id: 4,
         name: 'Ultra HD 4K Webcam',
         description: 'Professional 4K webcam with auto-focus, low-light correction, and dual microphones for crystal-clear video calls and streaming.',
@@ -70,30 +45,6 @@ const PRODUCTS = [
             'Wireless 2.4GHz Connection',
             'Rechargeable Battery',
             '6 Programmable Buttons'
-        ]
-    },
-    {
-        id: 6,
-        name: 'RGB Mechanical Keyboard',
-        description: 'Experience tactile typing with our RGB mechanical keyboard. Full N-key rollover, customizable lighting effects, and durable construction for gaming and typing enthusiasts.',
-        price: 119.99,
-        rating: 4.8,
-        stock: 19,
-        images: [
-            'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1595225476474-8756307b084e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1605297433480-0423e17b6a8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        ],
-        colors: [
-            'Black',
-            'Gunmetal Gray'
-        ],
-        features: [
-            'Tactile Mechanical Switches (Blue)',
-            'Customizable RGB Backlighting',
-            'Full N-Key Rollover',
-            'Detachable USB-C Cable',
-            'Aluminum Top Plate'
         ]
     },
     {
