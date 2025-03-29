@@ -1,32 +1,8 @@
 const PRODUCTS = [
  {
- id: 4,
- name: 'Ultra HD 4K Webcam',
- description: 'Professional 4K webcam with auto-focus, low-light correction, and dual microphones for crystal-clear video calls and streaming.',
- price: 129.99,
- rating: 4.6,
- stock: 25,
- images: [
- 'https://images.unsplash.com/photo-1611928547982-11a79f7f4a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1608438581951-2741c76284f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
- 'Black',
- 'Silver'
- ],
- features: [
- '4K Ultra HD Resolution',
- 'Auto-focus',
- 'Low-light Correction',
- 'Dual Stereo Microphones',
- 'Privacy Shutter'
- ]
- },
- {
  id: 5,
  name: 'Ergonomic Wireless Mouse',
- description: 'Reduce wrist strain with this vertically designed ergonomic mouse. Features adjustable DPI, smooth tracking, and long battery life for comfortable productivity.',
+ description: 'this is justa  test bruh',
  price: 49.99,
  rating: 4.4,
  stock: 38,
@@ -76,7 +52,7 @@ const PRODUCTS = [
  {
  id: 10,
  name: 'Surround Sound Gaming Headset',
- description: 'Gain a competitive edge with immersive 7.1 surround sound. This gaming headset features a noise-cancelling microphone, comfortable earcups, and RGB lighting.',
+ description: 'hey hey hey!!!',
  price: 89.99,
  rating: 4.4,
  stock: 26,
