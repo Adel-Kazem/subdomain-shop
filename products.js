@@ -51,31 +51,6 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 3,
-        name: 'Portable Bluetooth Speaker',
-        description: 'Take your music anywhere with our compact yet powerful Bluetooth speaker. Featuring 360° sound, waterproof design, and 12 hours of playback for the perfect outdoor companion.',
-        price: 59.99,
-        rating: 4.2,
-        stock: 28,
-        images: [
-            'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        ],
-        colors: [
-            'Orange',
-            'Blue',
-            'Gray'
-        ],
-        features: [
-            'Waterproof (IPX7)',
-            '360° sound technology',
-            '12-hour battery life',
-            'Built-in microphone',
-            'Portable design'
-        ]
-    },
-    {
         id: 4,
         name: 'Ultra HD 4K Webcam',
         description: 'Professional 4K webcam with auto-focus, low-light correction, and dual microphones for crystal-clear video calls and streaming.',
@@ -221,30 +196,6 @@ const PRODUCTS = [
             'Comfortable Over-Ear Design',
             'Customizable RGB Lighting',
             'On-Earcup Controls'
-        ]
-    },
-    {
-        id: 11,
-        name: 'PaperLight E-Reader',
-        description: 'Read comfortably day or night with the glare-free PaperLight display. Features adjustable warm light, weeks of battery life, and access to millions of books.',
-        price: 129.99,
-        rating: 4.7,
-        stock: 18,
-        images: [
-            'https://images.unsplash.com/photo-1605799040034-951789f7a18a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1583468982073-50746b5d28f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-            'https://images.unsplash.com/photo-1620375399860-76a7d8927a10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        ],
-        colors: [
-            'Black',
-            'Twilight Blue'
-        ],
-        features: [
-            '6.8" Glare-Free Display (300 ppi)',
-            'Adjustable Warm Light',
-            'Waterproof (IPX8)',
-            'Weeks of Battery Life',
-            '8GB Storage'
         ]
     },
     {
