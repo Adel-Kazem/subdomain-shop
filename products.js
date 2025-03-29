@@ -277,5 +277,23 @@ const PRODUCTS = [
  features: [
  'Illo nisi excepturi'
  ]
+ },
+ {
+ id: 16,
+ name: 'Voluptatem doloribus',
+ description: 'Corporis enim itaque',
+ price: 42,
+ rating: 2,
+ stock: 56,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/hero.jpeg'
+ ],
+ colors: [
+ 'Quis sunt vel dolor'
+ ],
+ features: [
+ 'Minus impedit et es'
+ ]
  }
 ];
