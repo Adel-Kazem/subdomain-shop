@@ -101,9 +101,9 @@ const PRODUCTS = [
  },
  {
  id: 5,
- name: 'Ergonomic Wireless Mouse',
- description: 'Reduce wrist strain with this vertically designed ergonomic mouse. Features adjustable DPI, smooth tracking, and long battery life for comfortable productivity.',
- price: 49.99,
+ name: 'broo title',
+ description: 'brooo',
+ price: 1111111,
  rating: 4.4,
  stock: 38,
  images: [
@@ -113,14 +113,11 @@ const PRODUCTS = [
  ],
  colors: [
   'Graphite',
-  'White'
+  'White',
+  'blue'
  ],
  features: [
-  'Vertical Ergonomic Design',
-  'Adjustable DPI (800/1200/1600)',
-  'Wireless 2.4GHz Connection',
-  'Rechargeable Battery',
-  '6 Programmable Buttons'
+  'this is a just feature brooooooo'
  ]
  },
  {
@@ -166,30 +163,6 @@ const PRODUCTS = [
  ],
  features: [
   'NFC Payments'
- ]
- },
- {
- id: 8,
- name: 'High-Capacity Power Bank (20000mAh)',
- description: 'Never run out of battery on the go. This 20000mAh power bank features fast charging, multiple USB ports, and a compact design.',
- price: 39.99,
- rating: 4.3,
- stock: 55,
- images: [
-  'https://images.unsplash.com/photo-1588701107430-af7a149d4599?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-  'https://images.unsplash.com/photo-1610078287620-94c1e8351444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-  'https://images.unsplash.com/photo-1605440336131-8d64f4c91585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
-  'Black',
-  'White'
- ],
- features: [
-  '20000mAh Capacity',
-  'PD Fast Charging (18W)',
-  'Dual USB-A Output',
-  'USB-C Input/Output',
-  'LED Power Indicator'
  ]
  },
  {
