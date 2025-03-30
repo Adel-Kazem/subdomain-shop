@@ -200,5 +200,40 @@ const PRODUCTS = [
  ],
  features: [
  ]
+ },
+ {
+ id: 15,
+ name: 'Perferendis non cons',
+ description: 'Vel nisi aut et porr',
+ price: 53,
+ rating: 4,
+ stock: 47,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1-hero.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/2.jpeg'
+ ],
+ colors: [
+ 'Pariatur Eos culpa'
+ ],
+ features: [
+ 'Cillum aut animi of'
+ ]
+ },
+ {
+ id: 15,
+ name: 'Dolores nihil exerci',
+ description: 'Incidunt enim excep',
+ price: 36,
+ rating: 5,
+ stock: 89,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/3.jpeg'
+ ],
+ colors: [
+ 'Ullam duis deleniti'
+ ],
+ features: [
+ 'Aut nobis corporis c'
+ ]
  }
 ];
