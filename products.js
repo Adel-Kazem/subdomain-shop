@@ -100,27 +100,6 @@ const PRODUCTS = [
  ]
  },
  {
- id: 5,
- name: 'broo title',
- description: 'brooo',
- price: 1111111,
- rating: 4.4,
- stock: 38,
- images: [
- 'https://images.unsplash.com/photo-1615663245611-4af4d1a1c6a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1594050035600-2f35aebd44b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1629429408209-1f9129f1db17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
- 'Graphite',
- 'White',
- 'blue'
- ],
- features: [
- 'this is a just feature brooooooo'
- ]
- },
- {
  id: 6,
  name: 'RGB Mechanical Keyboard',
  description: 'Experience tactile typing with our RGB mechanical keyboard. Full N-key rollover, customizable lighting effects, and durable construction for gaming and typing enthusiasts.',
@@ -159,10 +138,12 @@ const PRODUCTS = [
  colors: [
  'Silver Stainless Steel',
  'Black Aluminum',
- 'Rose Gold'
+ 'Rose Gold',
+ 'blue'
  ],
  features: [
- 'NFC Payments'
+ 'NFC Payments',
+ 'kljklj'
  ]
  },
  {
@@ -240,31 +221,6 @@ const PRODUCTS = [
  ]
  },
  {
- id: 12,
- name: 'Compact Folding Drone',
- description: 'Capture stunning aerial shots with this easy-to-fly folding drone. Features a 4K camera, intelligent flight modes, and a 30-minute flight time.',
- price: 449.99,
- rating: 4.5,
- stock: 12,
- images: [
- 'https://images.unsplash.com/photo-1507582020474-9a35b76552d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1527977966376-1c8408f9f108?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
- 'https://images.unsplash.com/photo-1591795960133-9d62c1a916d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
- ],
- colors: [
- 'Gray',
- 'White'
- ],
- features: [
- '4K Video Camera',
- '3-Axis Gimbal Stabilization',
- '30-Minute Max Flight Time',
- 'Intelligent Flight Modes (Follow Me, Orbit)',
- 'GPS + Obstacle Sensing',
- 'Foldable & Portable'
- ]
- },
- {
  id: 13,
  name: 'Smart Home Voice Hub',
  description: 'Control your smart home devices with your voice. Ask questions, play music, set timers, and manage compatible lights, locks, and thermostats with this central hub.',
@@ -287,20 +243,6 @@ const PRODUCTS = [
  'Smart Home Device Control (Zigbee, Wi-Fi, Bluetooth)',
  'Privacy Controls (Mic Off Button)',
  'Rich Sound Quality'
- ]
- },
- {
- id: 14,
- name: 'Asperiores exercitat',
- description: 'Nisi inventore simil',
- price: 95,
- rating: 0,
- stock: 59,
- images: [
- ],
- colors: [
- ],
- features: [
  ]
  },
  {
