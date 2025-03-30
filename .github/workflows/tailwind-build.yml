@@ -1,0 +1,37 @@
+name: Build Tailwind CSS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download Tailwind CSS standalone CLI
+        run: |
+          curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+          chmod +x tailwindcss-linux-x64
+          mv tailwindcss-linux-x64 tailwindcss
+
+      - name: Initialize Tailwind config if not exists
+        run: |
+          if [ ! -f "tailwind.config.js" ]; then
+            ./tailwindcss init
+          fi
+
+      - name: Build CSS
+        run: |
+          ./tailwindcss -i src/input.css -o assets/css/style.css --minify
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add assets/css/style.css
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Build Tailwind CSS" && git push)
