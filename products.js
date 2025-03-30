@@ -258,5 +258,24 @@ const PRODUCTS = [
  ],
  features: [
  ]
+ },
+ {
+ id: 16,
+ name: 'Aute earum magnam qu',
+ description: 'Nihil natus dolore q',
+ price: 65,
+ rating: 1,
+ stock: 37,
+ images: [
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1-hero.jpeg',
+ 'https://raw.githubusercontent.com/Adel-Kazem/subdomain-shop/main/products_images/1.jpeg',
+ 'Ea sunt vel vitae pr'
+ ],
+ colors: [
+ 'Numquam qui odit min'
+ ],
+ features: [
+ 'Proident sint vel m'
+ ]
  }
 ];
